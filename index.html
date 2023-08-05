@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/jpg" href="assets/imgs/unnamed.jpg" />
+    <title>Desafio condiciones</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500&family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="contenedor-d1">
+      <div class="text-d1">
+        <h1>Desafio 1</h1>
+        <div class="img-d1">
+          <img
+            id="imagenConBorde"
+            src="assets/imgs/man-virtual-reality.jpg"
+            alt="Imagen con borde"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="contenedor-d2">
+      <div class="text-d2">
+        <h2>Desafio 2</h2>
+        <h2>Puedes llevar Máximo 10 Barajitas.</h2>
+      </div>
+      <div class="flex-container-d2">
+        <div class="flex-item-d2">
+          <div class="img-container-d2">
+            <img src="assets/imgs/Dragapult.png" />
+          </div>
+          <div class="body-container-d2">
+            <div class="body-box-d2">
+              <input id="input1" type="text" placeholder="Cantidad a llevar" />
+            </div>
+          </div>
+        </div>
+        <div class="flex-item-d2">
+          <div class="img-container-d2">
+            <img src="assets/imgs/Ninetales.png" />
+          </div>
+          <div class="body-container-d2">
+            <div class="body-box-d2">
+              <input id="input2" type="text" placeholder="Cantidad a llevar" />
+            </div>
+          </div>
+        </div>
+        <div class="flex-item-d2">
+          <div class="img-container-d2">
+            <img src="assets/imgs/Zacian.png" />
+          </div>
+          <div class="body-container-d2">
+            <div class="body-box-d2">
+              <input id="input3" type="text" placeholder="Cantidad a llevar" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-side-desafio2">
+        <div class="bottom-text-d2">
+          <h3 id="textoVerificador"></h3>
+        </div>
+        <div class="verificador-desafio2">
+          <button onclick="buttonVerificador()">Verificar</button>
+        </div>
+      </div>
+    </section>
+    <section class="contenedor-d3">
+      <div class="body-container-d3">
+        <div class="text-inputpassword">
+          <h2 id="text-input">Ingresa el password</h2>
+        </div>
+        <div class="select-option">
+          <select name="" id="select1">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+          <select name="" id="select2">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+          <select name="" id="select3">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+        </div>
+        <div class="button-select">
+          <button onclick="passwordVerificador()">Ingresar</button>
+        </div>
+      </div>
+    </section>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
